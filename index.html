@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Cantarell|Kalam|Permanent+Marker&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet" />
+    <title>Password Generator</title>
+</head>
+
+<body>
+    <!--MAIN CONTAINER-->
+    <div class="container" id="main">
+        <h1>Password Generator</h1>
+
+        <!--MAIN CONTEINER FOR CONTENT-->
+        <div class="container" id="second">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h2>Generate a Password</h2>
+                </div>
+            </div>
+
+            <!--PASSWORD CONTAINER-->
+
+            <div class="container" id="result-container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <span id="result"></span>
+                    </div>
+                </div>
+                <!--END OF PASSWORD CONTAINER-->
+            </div>
+
+            <!--CONTAINER FOR LABEL AND INPUT-->
+
+            <div class="container" id="settings">
+                <div class="row">
+                    <div class="col-sm-12">
+                        How many characters?
+                        <input type="number" id="charNum" value="12" min="8" max="100" /><br /> Number: <input type="checkbox" id="num" /><br /> Symbol: <input type="checkbox" id="sym" /><br /> Uppercase: <input type="checkbox" id="upper" /><br /> Lowercase:
+                        <input type="checkbox" id="lower" /><br />
+                    </div>
+                </div>
+                <!--END OF CONTAINER FOR LABEL AND INPUT-->
+            </div>
+
+            <!--CONTAINER FOR BUTTONS-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <button type="button" class="btn btn-danger btn-lg" id="generate">
+                Generate Password
+              </button>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <button type="button" class="btn btn-primary btn-lg" id="clipboard">
+                  Copy to Clipboard
+                </button>
+                        </div>
+                    </div>
+                </div>
+                <!--END OF CONTAINER FOR BUTTONS-->
+            </div>
+            <!--END OF MAIN CONTEINER FOR CONTENT-->
+        </div>
+        <!--END OF MAIN CONTAINER-->
+    </div>
+
+    <!--FOOTER-->
+    <div class="container" id="footer">
+        &copy; Nikola Jovanovic 2019 HW 3 - GW
+    </div>
+    <!--END OF FOOTER-->
+
+    <!--Java Script link -->
+    <script src="./assets/JavaScript/main.js"></script>
+</body>
+
+</html>
