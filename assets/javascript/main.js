@@ -10,6 +10,8 @@ var submit = document.getElementById("generate");
 var yourPw = document.getElementById("yourPw");
 var clipboard = document.getElementById("myFunction");
 
+// submit button
+
 submit.addEventListener("click", function(e) {
     var characters = char;
     numBox.checked ? (characters += num) : "";
@@ -25,6 +27,8 @@ function myFunction() {
     document.execCommand("copy");
     alert("Copied the text: " + copyText.value);
 }
+
+// for loop
 
 function password(l, characters) {
     var pwd = "";
