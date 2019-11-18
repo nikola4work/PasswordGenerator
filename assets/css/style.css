@@ -7,6 +7,7 @@ body {
 }
 
 #main {
+    margin-bottom: ;
     background-color: #f8fafc;
     padding: 20px;
     width: 900px;
@@ -42,13 +43,13 @@ h2 {
     font-family: "Kalam", cursive;
 }
 
-#result-container {
+#yourPw {
     resize: none;
+    width: 620px;
     height: 100px;
     border-radius: 10px;
     border: 4px dashed #000000;
     text-align: center;
-    padding-top: 32px;
     font-family: "Permanent Marker", cursive;
     font-family: "Kalam", cursive;
     font-family: "Cantarell", sans-serif;
@@ -97,6 +98,9 @@ h2 {
     #second {
         margin-left: -20px;
     }
+    #yourPw {
+        width: 455px;
+    }
 }
 
 @media screen and (max-width: 575px) {
@@ -107,9 +111,14 @@ h2 {
         margin-left: -12px;
         margin-bottom: 4px;
     }
-    #result-container {
+    #main {
         width: 500px;
-        margin-right: 140px;
+    }
+    #second {
+        width: 500px;
+    }
+    #yourPw {
+        margin-left: -15px;
     }
 }
 
@@ -120,7 +129,7 @@ h2 {
     #second {
         width: 450px;
     }
-    #result-container {
+    #yourPw {
         width: 400px;
         font: 15px;
     }
@@ -136,7 +145,7 @@ h2 {
     #second {
         width: 390px;
     }
-    #result-container {
+    #yourPw {
         width: 350px;
         font: 12px;
     }
