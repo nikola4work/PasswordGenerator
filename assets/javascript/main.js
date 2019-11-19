@@ -1,3 +1,18 @@
+var myInput = document.getElementById("myInput");
+var name = prompt("Enter your name!");
+alert("Please use resposibly... all rights reserved!");
+myInput.innerText = "Hello " + name + "!" + "" + "Welcome to my page";
+
+var myInput2 = document.getElementById("myInput2");
+var text = prompt("Do you wish to continue Yes Or No");
+myInput2.innerText = "USER INSTRUCTIONS:";
+
+if (text) {
+    alert("Have fun and follow the instructions");
+} else {
+    alert("Goodbye");
+}
+
 // variables
 var char = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var num = "0123456789";
