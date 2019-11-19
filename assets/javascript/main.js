@@ -1,18 +1,3 @@
-var myInput = document.getElementById("myInput");
-var name = prompt("Enter your name!");
-alert("Please use resposibly... all rights reserved!");
-myInput.innerText = "Hello " + name + "!" + "" + "Welcome to my page";
-
-var myInput2 = document.getElementById("myInput2");
-var text = prompt("Do you wish to continue Yes Or No");
-myInput2.innerText = "USER INSTRUCTIONS:";
-
-if (text) {
-    alert("Have fun and follow the instructions");
-} else {
-    alert("Goodbye");
-}
-
 // variables
 var char = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var num = "0123456789";
@@ -51,4 +36,32 @@ function password(l, characters) {
         pwd += characters.charAt(Math.floor(Math.random() * characters.length));
     }
     return pwd;
+}
+
+// USERS NAME
+
+var myInput = document.getElementById("myInput");
+var name = prompt("Enter your name!");
+alert("Please use resposibly... all rights reserved!");
+myInput.innerText = "Hello " + name + "!" + "" + "Welcome to my page";
+
+// DO YOU WISH TO CONTINUE
+
+var myInput2 = document.getElementById("myInput2");
+var text = confirm("Do you wish to continue Yes Or No");
+
+//RUNS IF ELSE BASED ON USERS INPUT
+if (text) {
+    alert("Have fun and follow the instructions");
+} else {
+    alert("Goodbye");
+}
+
+function myFunction() {
+    var x = document.getElementById("myDIV");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
 }

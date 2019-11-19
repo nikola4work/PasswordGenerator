@@ -7,18 +7,38 @@ body {
 }
 
 #myInput {
-    color: red;
-    position: fixed;
-    top: 0;
-    left: 0;
-    font-size: 15px;
+    text-align: center;
+    margin: 10px;
+    color: #131313;
+    background: letter-spacing: 0.15em;
+    color: #ffffff;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
 }
 
-#myInput2 {
-    color: red;
-    position: absolute;
-    padding-top: 5px;
-    font-size: 15px;
+#myDIV {
+    margin-left: 440px;
+    width: 440px;
+    height: 300px;
+    padding: 20px;
+    background-color: #f8fafc;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+#myDIV,
+ul,
+li {
+    padding: 10px;
+}
+
+#show {
+    font-size: 20px;
+    margin-left: 555px;
+    color: #ffffff;
+    background: #232323;
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #49ff18, 0 0 30px #49ff18, 0 0 40px #49ff18, 0 0 55px #49ff18, 0 0 75px #49ff18;
+    border: 5px outset #0a000a;
+    border-radius: 0px 30px 0px 30px;
 }
 
 #main {
