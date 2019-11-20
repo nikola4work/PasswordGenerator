@@ -13,24 +13,34 @@
     <link href="https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Cantarell|Kalam|Permanent+Marker&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Tomorrow&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Acme|Cabin|Inconsolata|Shadows+Into+Light&display=swap" rel="stylesheet" />
     <title>Password Generator</title>
 </head>
 
 <body>
     <h1 id="myInput"></h1>
-    <button onclick="myFunction()" id="show">USER INSTRUCTIONS</button>
 
-    <div id="myDIV">
-        <ul>
-            <li>Select between 8 - 120 characters</li>
-            <li>Lower & Upper case letter are use by default</li>
-            <li>
-                Mark the checkbox if you wish to generate password with symbol or number
-            </li>
-            <li>
-                Copy to Clipoard - users preference!
-            </li>
-        </ul>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <button onclick="myFunction()" type="button" id="show">
+            USER INSTRUCTIONS
+          </button>
+
+                <div id="myDIV">
+                    <ul>
+                        <li>Select between 8 - 120 characters</li>
+                        <li>Lower & Upper case letters are use by default</li>
+                        <li>
+                            Mark the checkbox if you wish to generate password with symbol or number
+                        </li>
+                        <li>
+                            Copy to Clipoard - users preference!
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
 
     <!--MAIN CONTAINER-->

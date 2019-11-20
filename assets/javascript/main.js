@@ -42,19 +42,20 @@ function password(l, characters) {
 
 var myInput = document.getElementById("myInput");
 var name = prompt("Enter your name!");
-alert("Please use resposibly... all rights reserved!");
+alert("Please use resposibly... !!");
 myInput.innerText = "Hello " + name + "!" + "" + "Welcome to my page";
 
 // DO YOU WISH TO CONTINUE
 
 var myInput2 = document.getElementById("myInput2");
-var text = confirm("Do you wish to continue Yes Or No");
+var text = confirm("Do you wish to continue ?");
 
 //RUNS IF ELSE BASED ON USERS INPUT
 if (text) {
     alert("Have fun and follow the instructions");
 } else {
     alert("Goodbye");
+    window.stop();
 }
 
 function myFunction() {
