@@ -55,10 +55,9 @@ if (text) {
     alert("Have fun and follow the instructions");
 } else {
     alert("Goodbye");
-    window.stop();
 }
 
-function myFunction() {
+function hidden() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
         x.style.display = "block";
