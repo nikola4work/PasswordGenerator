@@ -20,7 +20,7 @@ submit.addEventListener("click", function(e) {
 });
 
 //  Copy Password to clipboard
-function myFunction() {
+function copyClipBoard() {
     var copyText = document.getElementById("yourPw");
     copyText.select();
     copyText.setSelectionRange(0, 99999);
@@ -57,7 +57,7 @@ if (text) {
     alert("Goodbye");
 }
 
-function hidden() {
+function hiddenDiv() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
         x.style.display = "block";
