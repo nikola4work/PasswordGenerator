@@ -111,6 +111,10 @@
                     margin-left: 80px;
                 }
                 
+                #testClose {
+                    display: none;
+                }
+                
                 #footer {
                     color: white;
                     text-align: center;

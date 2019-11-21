@@ -18,97 +18,99 @@
 </head>
 
 <body>
-    <h1 id="myInput"></h1>
+    <div id="testOpen">
+        <h1 id="myInput"></h1>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <button onclick="hiddenDiv()" type="button" id="show">
-            USER INSTRUCTIONS
-          </button>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <button onclick="hiddenDiv()" type="button" id="show">
+              USER INSTRUCTIONS
+            </button>
 
-                <div id="myDIV">
-                    <ul>
-                        <li>Select between 8 - 120 characters</li>
-                        <li>Lower & Upper case letters are use by default</li>
-                        <li>
-                            Mark the checkbox if you wish to generate password with symbol or number
-                        </li>
-                        <li>
-                            Copy to Clipoard - users preference!
-                        </li>
-                    </ul>
+                    <div id="myDIV">
+                        <ul>
+                            <li>Select between 8 - 120 characters</li>
+                            <li>Lower & Upper case letters are use by default</li>
+                            <li>
+                                Mark the checkbox if you wish to generate password with symbol or number
+                            </li>
+                            <li>
+                                Copy to Clipoard - users preference!
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <!--MAIN CONTAINER-->
+        <!--MAIN CONTAINER-->
 
-    <div class="container" id="main">
-        <h1>Password Generator</h1>
+        <div class="container" id="main">
+            <h1>Password Generator</h1>
 
-        <!--MAIN CONTEINER FOR CONTENT-->
-        <div class="container" id="second">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h2>Generate a Password</h2>
-                </div>
-            </div>
-
-            <!--PASSWORD CONTAINER-->
-
-            <div class="container" id="result-container">
+            <!--MAIN CONTEINER FOR CONTENT-->
+            <div class="container" id="second">
                 <div class="row">
                     <div class="col-sm-12">
-                        <input type="text" name="" id="yourPw" placeholder="Your Password!" />
+                        <h2>Generate a Password</h2>
                     </div>
                 </div>
-                <!--END OF PASSWORD CONTAINER-->
-            </div>
 
-            <!--CONTAINER FOR LABEL AND INPUT-->
+                <!--PASSWORD CONTAINER-->
 
-            <div class="container" id="settings">
-                <div class="row">
-                    <div class="col-sm-12">
-                        How many characters?
-                        <input type="number" id="charNum" value="12" min="8" max="120" />
-                        <br /> Include Number: <input type="checkbox" id="num" /> <br /> Include Symbol: <input type="checkbox" id="sym" />
-                        <br />
-                    </div>
-                </div>
-                <!--END OF CONTAINER FOR LABEL AND INPUT-->
-            </div>
-
-            <!--CONTAINER FOR BUTTONS-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">
-                        <button type="button" class="btn btn-danger btn-lg" id="generate">
-                Generate Password
-              </button>
-                    </div>
+                <div class="container" id="result-container">
                     <div class="row">
                         <div class="col-sm-12">
-                            <button onclick="copyClipBoard()" type="button" class="btn btn-primary btn-lg" id="clipboard">
-                  Copy to Clipboard
-                </button>
+                            <input type="text" name="" id="yourPw" placeholder="Your Password!" />
                         </div>
                     </div>
+                    <!--END OF PASSWORD CONTAINER-->
                 </div>
-                <!--END OF CONTAINER FOR BUTTONS-->
-            </div>
-            <!--END OF MAIN CONTEINER FOR CONTENT-->
-        </div>
-        <!--END OF MAIN CONTAINER-->
-    </div>
 
-    <!--FOOTER-->
-    <div class="container" id="footer">
-        &copy; Nikola Jovanovic 2019 HW 3 - GW
+                <!--CONTAINER FOR LABEL AND INPUT-->
+
+                <div class="container" id="settings">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            How many characters?
+                            <input type="number" id="charNum" value="12" min="8" max="120" />
+                            <br /> Include Number: <input type="checkbox" id="num" /> <br /> Include Symbol: <input type="checkbox" id="sym" />
+                            <br />
+                        </div>
+                    </div>
+                    <!--END OF CONTAINER FOR LABEL AND INPUT-->
+                </div>
+
+                <!--CONTAINER FOR BUTTONS-->
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <button type="button" class="btn btn-danger btn-lg" id="generate">
+                  Generate Password
+                </button>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <button onclick="copyClipBoard()" type="button" class="btn btn-primary btn-lg" id="clipboard">
+                    Copy to Clipboard
+                  </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!--END OF CONTAINER FOR BUTTONS-->
+                </div>
+                <!--END OF MAIN CONTEINER FOR CONTENT-->
+            </div>
+            <!--END OF MAIN CONTAINER-->
+        </div>
+        <!--FOOTER-->
+        <div class="container" id="footer">
+            &copy; Nikola Jovanovic 2019 HW 3 - GW
+        </div>
+        <!--END OF FOOTER-->
     </div>
-    <!--END OF FOOTER-->
+    <div id="testClose"></div>
 
     <!--Java Script link -->
     <script src="./assets/javascript/main.js"></script>

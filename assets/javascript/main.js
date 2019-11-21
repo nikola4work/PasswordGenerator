@@ -54,7 +54,8 @@ var text = confirm("Do you wish to continue ?");
 if (text) {
     alert("Have fun and follow the instructions");
 } else {
-    alert("Goodbye");
+    document.getElementById("testClose").style.display = "block";
+    document.getElementById("testOpen").style.display = "none";
 }
 
 function hiddenDiv() {
