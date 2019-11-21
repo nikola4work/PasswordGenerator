@@ -6,6 +6,9 @@
 
 ## Description
 PasswordGenerator is a small app that generates secure password based on users selection. 
+
+
+
 ##Features
 
 * Once app is open, it interracts with user through alert box
