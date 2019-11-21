@@ -32,7 +32,7 @@ PasswordGenerator is a small app that generates secure password based on users s
 ## Setup/Installation Requirements
 
 * Clone this repository to your local machine if you wish to edit
-* For live preview navigate to the https://nikola4work.github.io/PasswordGeneratorSimplified/ 
+* For live preview navigate to the https://nikola4work.github.io/PasswordGenerator/
 
 
 
