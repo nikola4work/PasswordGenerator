@@ -1,41 +1,35 @@
 # PasswordGeneratorSimplified
-# Random Shelf
 
-#### Random-Shelf-Repo, 09/15/18
+#### PasswordGeneratorSimplified-Repo, 11/21/19
 
-#### By Lawrence Kirk
+#### By Nikola Jovanovic
 
 ## Description
-Random shelf is a small storage app that allows users to post costum profiles for items that they lost or had to get rid of. People can memorialize these items through the site. 
+PasswordGenerator is a small app that generates secure password based on users selection. 
 ##Features
 
-* Users can add new Items to the site through the form feature.
-* Users can login and sign out with their user authentication. 
-* Users can view all other users posts. 
-* Users can update there posts hrough our update feature. 
-* Users can delete there posts when they have new ideas that they want to acheive. 
-* Users can add images to there posts.
-* Users can costumize there post to the fullest. 
- 
+* Once app is open, it interracts with user through alert box
+* User have an option of selecting to continue or cancel alert message
+* if confirm to proceed, it will display users name and dropdown button with instructions
+* User can generate his secure password by selecting generate button
+* User can also copy his generated password to clipboard
+* If User decided not to participate and cancel alert message,he will be redirect to New window
+* User then have an option of playing the video shown on the screen 
+* App is mobile friendly
+
 
 
 ## Setup/Installation Requirements
 
-* Clone this repository.
-* Open both repositories in your terminal.
-* Install and run the pip env for python/django apps. 
-* Command line: python manage.py runserver to get the app up and running. 
-* Navigate to the localhosted sight on port 8000.  
+* Clone this repository to your local machine
+* For live preview navigate to the https://nikola4work.github.io/PasswordGeneratorSimplified/ 
 
 
 
-## Known Bugs
-
-It turns out that although heroku stores the image files temporarily in their db it is not something that they store long term so I am switching back to links. 
 
 ## Support and contact details
 
-Please email us for further questions at lmkirkiii@gmail.com
+Please email me for further questions at nikola4work@gmail.com
 
 ## Technologies Used
 
@@ -43,17 +37,11 @@ HTML
 
 CSS
 
-Python
+JavaScript 
 
-Django 
-
-## Contribution Guidlines 
-
-Direct link to site:
-https://shelf-hope.herokuapp.com/
 
 ### License
 
-Copyright(c) 2015 By Lawrence Kirk
+Copyright(c) 2019 By Nikola Jovanovic
 
-This software is licensed under MIT license.
+
