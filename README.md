@@ -1,6 +1,6 @@
-# PasswordGeneratorSimplified
+# PasswordGenerator
 
-#### PasswordGeneratorSimplified-Repo, 11/21/19
+#### PasswordGenerator-Repo, 11/21/19
 
 #### By Nikola Jovanovic
 
@@ -9,7 +9,7 @@ PasswordGenerator is a small app that generates secure password based on users s
 
 
 
-##Features
+## Features
 
 * Once app is open, it interracts with user through alert box
 * User have an option of selecting to continue or cancel alert message
