@@ -54,9 +54,13 @@ var text = confirm("Do you wish to continue ?");
 if (text) {
     alert("Have fun and follow the instructions");
 } else {
+    alert("Sad to see you leave - Enjoy the video")
+
     document.getElementById("testClose").style.display = "block";
     document.getElementById("testOpen").style.display = "none";
 }
+
+// VIDEO
 
 var video = document.getElementById("myVideo");
 var playBtn = document.getElementById("myBtn");
@@ -70,6 +74,8 @@ function myFunction() {
         btn.innerHTML = "Play";
     }
 }
+
+//DIV DROPDOWN
 
 function hiddenDiv() {
     var x = document.getElementById("myDIV");
