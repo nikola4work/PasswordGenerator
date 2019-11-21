@@ -20,7 +20,7 @@ PasswordGenerator is a small app that generates secure password based on users s
 * User then have an option of playing the video shown on the screen 
 * App is mobile friendly
 
-
+<img src="assets/images/Screenshoot.png">
 
 ## Setup/Installation Requirements
 
