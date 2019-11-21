@@ -58,6 +58,19 @@ if (text) {
     document.getElementById("testOpen").style.display = "none";
 }
 
+var video = document.getElementById("myVideo");
+var playBtn = document.getElementById("myBtn");
+
+function myFunction() {
+    if (video.paused) {
+        video.play();
+        btn.innerHTML = "Pause";
+    } else {
+        video.pause();
+        btn.innerHTML = "Play";
+    }
+}
+
 function hiddenDiv() {
     var x = document.getElementById("myDIV");
     if (x.style.display === "none") {
