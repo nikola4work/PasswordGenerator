@@ -20,7 +20,12 @@ PasswordGenerator is a small app that generates secure password based on users s
 * User then have an option of playing the video shown on the screen 
 * App is mobile friendly
 
-<img src="https://github.com/nikola4work/PasswordGenerator/blob/master/assets/images/Screenshot%20(56).png?raw=true" alt="Smiley face" height="42" width="42">
+<img src="https://github.com/nikola4work/PasswordGenerator/blob/master/assets/images/Screenshot%20(56).png?raw=true" height="150" width="150">
+
+
+<img src="https://github.com/nikola4work/PasswordGenerator/blob/master/assets/images/Screenshot%20.png?raw=true"  height="150" width="150">
+
+
 
 ## Setup/Installation Requirements
 
