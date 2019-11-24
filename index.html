@@ -8,6 +8,7 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Kalam|Permanent+Marker&display=swap" rel="stylesheet" />
@@ -24,11 +25,8 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <button onclick="hiddenDiv()" type="button" id="show">
-              USER INSTRUCTIONS
-            </button>
-
-                    <div id="myDIV">
+                    <button class="toggle">User Instructions</button>
+                    <div id="target">
                         <ul>
                             <li>Select between 8 - 120 characters</li>
                             <li>
@@ -39,6 +37,7 @@
                             </li>
                         </ul>
                     </div>
+                    <!--END OF HIDEN DIV-->
                 </div>
             </div>
         </div>

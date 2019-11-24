@@ -15,8 +15,8 @@
                     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
                 }
                 
-                #myDIV {
-                    margin-left: 350px;
+                #target {
+                    margin-left: 320px;
                     width: 440px;
                     height: 300px;
                     padding: 20px;
@@ -25,7 +25,7 @@
                     border-radius: 20px;
                 }
                 
-                #myDIV,
+                #target,
                 ul,
                 li {
                     padding: 15px;
@@ -36,7 +36,7 @@
                     font-size: 15px;
                 }
                 
-                #show {
+                .toggle {
                     font-size: 20px;
                     margin-left: 450px;
                     color: #ffffff;
@@ -274,50 +274,50 @@
                 }
                 
                 @media screen and (max-width: 1129px) {
-                    #show {
+                    .toggle {
                         margin-left: 380px;
                     }
-                    #myDIV {
+                    #target {
                         margin-left: 280px;
                     }
                 }
                 
                 @media screen and (max-width: 991px) {
-                    #show {
+                    .toggle {
                         margin-left: 250px;
                     }
-                    #myDIV {
+                    #target {
                         margin-left: 150px;
                     }
                 }
                 
                 @media screen and (max-width: 751px) {
-                    #show {
+                    .toggle {
                         margin-left: 130px;
                     }
-                    #myDIV {
+                    #target {
                         margin-left: 35px;
                     }
                 }
                 
                 @media screen and (max-width: 510px) {
-                    #show {
+                    .toggle {
                         margin-left: 110px;
                     }
-                    #myDIV {
+                    #target {
                         margin-left: 10px;
                     }
                 }
                 
                 @media screen and (max-width: 419px) {
-                    #show {
+                    .toggle {
                         margin-left: 70px;
                     }
-                    #myDIV {
+                    #target {
                         margin-left: 15px;
                         width: 350px;
                     }
-                    #myDIV,
+                    #target,
                     ul,
                     li {
                         font-size: 14px;
